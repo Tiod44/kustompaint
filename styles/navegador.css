@@ -1,10 +1,16 @@
-informacion {
+#nav {
     background-color: aquamarine;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#informacion h1 {
-    padding-left: 2%;
+#nav h1 {
+    padding-left: 4%;
+}
+
+.nav-botones {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
 }
